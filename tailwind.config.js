@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         karla: ['karla, sans serif'],
-        dmSans: ['dm sans, sans serif']
+        dmSans: ['dm serif display, serif']
       },
       screens: {
         sm: '480px',
