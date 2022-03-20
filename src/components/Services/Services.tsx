@@ -7,10 +7,10 @@ const Services: FC = () => {
         className="w-full mx-auto max-w-6xl xl:max-w-[80vw] flex flex-col items-center md:items-start
         mb-4 px-3 sm:px-8"
       >
-        <header className="mb-8 w-fit">
+        <header className="mb-14 sm:mb-[72px] w-fit">
           <h3
             className="md:text-left text-center font-dmSans text-[3rem] sm:text-6xl text-primaryDark
-            mb-8 sm:mb-12 leading-none"
+            leading-none"
           >
             We’re different
           </h3>
@@ -30,7 +30,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-2 text-primaryDark">
+              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Snappy Process
               </h4>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
@@ -53,7 +53,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-2 text-primaryDark">
+              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Affordable Prices
               </h4>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
@@ -76,7 +76,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-2 text-primaryDark">
+              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 People First
               </h4>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">

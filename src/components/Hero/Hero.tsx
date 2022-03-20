@@ -14,7 +14,7 @@ const Hero: FC = () => {
     >
       <div className="w-full relative bg-primary flex justify-center items-start overflow-y-visible">
         <div
-          className="w-full h-fit md:h-[68vh] max-w-6xl xl:max-w-[80vw] px-0 md:px-4 pt-0 sm:pt-20 pb-16
+          className="w-full h-fit md:h-[537px] max-w-6xl xl:max-w-[80vw] px-0 md:px-4 pt-0 sm:pt-20 pb-16
         flex justify-center gap-x-12 items-center md:items-start flex-col-reverse md:flex-row text-center
         md:text-left"
         >

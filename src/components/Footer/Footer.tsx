@@ -7,7 +7,7 @@ const Footer: FC = () => {
   const { width } = useWindowDimension();
 
   return (
-    <footer className="relative w-full bg-lightGray min-h-[45vh] py-14 flex items-start justify-center">
+    <footer className="relative w-full bg-lightGray min-h-[355px] py-14 flex items-start justify-center">
       <div className="w-full max-w-6xl xl:max-w-[80vw] flex flex-col justify-start px-3 sm:px-8">
         <header
           className="w-full flex sm:flex-row gap-y-8 flex-col justify-between items-center pb-10
@@ -198,7 +198,14 @@ const Footer: FC = () => {
           >
             Frontend Mentor
           </a>
-          . Coded by <a href="https://chikezieobinna.herokuapp.com">Brandon</a>.
+          . Coded by{" "}
+          <a
+            className="text-attribution"
+            href="https://chikezieobinna.herokuapp.com"
+          >
+            Brandon
+          </a>
+          .
         </div>
         {/* pattern */}
         <div className="absolute left-0 top-0">

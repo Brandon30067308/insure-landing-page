@@ -571,8 +571,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
-.mb-8{
-  margin-bottom: 2rem;
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 
 .flex{
@@ -597,16 +601,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 90vh;
 }
 
-.min-h-\[55vh\]{
-  min-height: 55vh;
+.min-h-\[434px\]{
+  min-height: 434px;
 }
 
-.min-h-\[38vh\]{
-  min-height: 38vh;
+.min-h-\[300px\]{
+  min-height: 300px;
 }
 
-.min-h-\[45vh\]{
-  min-height: 45vh;
+.min-h-\[355px\]{
+  min-height: 355px;
 }
 
 .min-h-\[1015px\]{
@@ -963,12 +967,18 @@ body{
   visibility: hidden;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
   display: block;
   height: 1px;
   width: 33.333333%;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 480px){
+  .Hero h3::before{
+    margin-bottom: 2.5rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -1033,8 +1043,12 @@ body{
 }
 
 @media (min-width: 480px){
-  .sm\:mb-12{
-    margin-bottom: 3rem;
+  .sm\:mb-\[72px\]{
+    margin-bottom: 72px;
+  }
+
+  .sm\:mb-2{
+    margin-bottom: 0.5rem;
   }
 
   .sm\:\!min-h-\[1315px\]{
@@ -1115,8 +1129,8 @@ body{
     margin-right: 1.5rem;
   }
 
-  .md\:h-\[68vh\]{
-    height: 68vh;
+  .md\:h-\[537px\]{
+    height: 537px;
   }
 
   .md\:\!min-h-\[855px\]{

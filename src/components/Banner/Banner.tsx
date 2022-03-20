@@ -6,9 +6,9 @@ const Banner: FC = () => {
   const { width } = useWindowDimension();
 
   return (
-    <div className="Banner w-full min-h-[55vh] flex justify-center items-center">
+    <div className="Banner w-full min-h-[434px] flex justify-center items-center">
       <div
-        className="w-full relative max-w-6xl xl:max-w-[80vw] mx-auto min-h-[38vh] bg-primary
+        className="w-full relative max-w-6xl xl:max-w-[80vw] mx-auto min-h-[300px] bg-primary
         flex justify-center md:justify-between items-center text-white overflow-hidden sm:px-12 py-8
         px-4 flex-col md:flex-row"
       >
