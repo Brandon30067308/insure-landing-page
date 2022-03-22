@@ -5,7 +5,7 @@ export interface WindowDimension {
   width: number
 } 
 
-export const useWindowDimension = (): WindowDimension => {
+export const useWindowDimensions = (): WindowDimension => {
   const [dimension, setDimension] = useState<WindowDimension>({
     height: 0,
     width: 0
@@ -30,4 +30,4 @@ export const useWindowDimension = (): WindowDimension => {
   return dimension;
 }
 
-export default useWindowDimension;
+export default useWindowDimensions;

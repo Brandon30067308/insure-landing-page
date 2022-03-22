@@ -3,10 +3,6 @@
 @tailwind utilities;
 @tailwind components;
 
-body {
-  @apply overflow-x-hidden;
-}
-
 /* Hero */
 .Hero h3::before {
   content: "";

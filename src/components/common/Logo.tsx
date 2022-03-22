@@ -1,12 +1,12 @@
 import { FC } from "react";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import breakpoints from "../../breakpoints/breakpoints";
 
 const Logo: FC = () => {
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return (
-    <div>
+    <div className="Logo">
       {width <= breakpoints.sm ? (
         <svg
           width="90"

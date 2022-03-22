@@ -1,13 +1,16 @@
 import { FC } from "react";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import breakpoints from "../../breakpoints/breakpoints";
 import Logo from "../common/Logo";
 
 const Footer: FC = () => {
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return (
-    <footer className="relative w-full bg-lightGray min-h-[355px] py-14 flex items-start justify-center">
+    <footer
+      className="Footer relative w-full bg-lightGray min-h-[355px] py-14 flex items-start
+      justify-center"
+    >
       <div className="w-full max-w-6xl xl:max-w-[80vw] flex flex-col justify-start px-3 sm:px-8">
         <header
           className="w-full flex sm:flex-row gap-y-8 flex-col justify-between items-center pb-10
@@ -66,7 +69,7 @@ const Footer: FC = () => {
         >
           <div className="flex flex-col md:w-fit w-full items-center md:items-start">
             <h3
-              className="uppercase font-[700] text-grayishViolet mb-5 text-[13.5px]
+              className="uppercase font-[700] text-grayishViolet mb-3.5 sm:mb-5 text-[13.5px]
               sm:text-[15px]"
             >
               our company
@@ -100,7 +103,7 @@ const Footer: FC = () => {
           </div>
           <div className="flex flex-col md:w-fit w-full items-center md:items-start">
             <h3
-              className="uppercase font-[700] text-grayishViolet mb-5 text-[13.5px]
+              className="uppercase font-[700] text-grayishViolet mb-3.5 sm:mb-5 text-[13.5px]
               sm:text-[15px]"
             >
               help me
@@ -134,7 +137,7 @@ const Footer: FC = () => {
           </div>
           <div className="flex flex-col md:w-fit w-full items-center md:items-start">
             <h3
-              className="uppercase font-[700] text-grayishViolet mb-5 text-[13.5px]
+              className="uppercase font-[700] text-grayishViolet mb-3.5 sm:mb-5 text-[13.5px]
               sm:text-[15px]"
             >
               contact
@@ -162,7 +165,7 @@ const Footer: FC = () => {
           </div>
           <div className="flex flex-col md:w-fit w-full items-center md:items-start">
             <h3
-              className="uppercase font-[700] text-grayishViolet mb-5 text-[13.5px]
+              className="uppercase font-[700] text-grayishViolet mb-3.5 sm:mb-5 text-[13.5px]
               sm:text-[15px]"
             >
               others
@@ -189,7 +192,7 @@ const Footer: FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full text-primaryDark text-center text-[14px] sm:text-[15px] mt-6">
+        <div className="w-full text-primaryDark text-center text-[14px] sm:text-[15px] mt-8">
           Challenge by{" "}
           <a
             className="text-attribution"

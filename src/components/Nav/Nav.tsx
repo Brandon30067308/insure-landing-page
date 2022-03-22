@@ -2,15 +2,15 @@ import { FC } from "react";
 import Logo from "../common/Logo";
 import MobileNav from "./MobileNav";
 import breakpoints from "../../breakpoints/breakpoints";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const Nav: FC = () => {
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return width <= breakpoints.md ? (
     <MobileNav />
   ) : (
-    <nav className="w-full py-4 min-h-[80px] z-20 flex items-center shadow bg-white font-karla">
+    <nav className="Nav w-full py-4 min-h-[80px] z-20 flex items-center shadow bg-white font-karla">
       <div className="w-full max-w-6xl xl:max-w-[80vw] mx-auto flex justify-between items-center px-8">
         <Logo />
         <div className="flex items-center">

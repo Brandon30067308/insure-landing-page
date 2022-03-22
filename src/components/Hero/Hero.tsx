@@ -2,10 +2,10 @@ import { FC } from "react";
 import imageIntroDesktop from "../../images/image-intro-desktop.jpg";
 import imageIntroMobile from "../../images/image-intro-mobile.jpg";
 import breakpoints from "../../breakpoints/breakpoints";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const Hero: FC = () => {
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return (
     <div

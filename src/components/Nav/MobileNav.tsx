@@ -1,14 +1,14 @@
 import { FC, useState } from "react";
 import breakpoints from "../../breakpoints/breakpoints";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import Logo from "../common/Logo";
 
 const MobileNav: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return (
-    <nav className="w-full h-[10vh] font-karla flex flex-col justify-start">
+    <nav className="Nav w-full h-[10vh] font-karla flex flex-col justify-start">
       <div
         className="w-full fixed z-20 bg-white px-3 sm:px-8 h-[10vh] flex justify-between
         items-center shadow"

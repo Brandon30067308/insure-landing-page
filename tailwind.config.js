@@ -1,6 +1,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./*.html"
   ],
   theme: {
     extend: {
@@ -11,11 +12,6 @@ module.exports = {
         grayishViolet: 'hsl(273, 4%, 51%)',
         lightGray: 'hsl(0, 0%, 98%)',
         attribution: 'hsl(228, 45%, 44%)'
-      },
-      backgroundImage: {
-        'patternMainDesktop': "url('../images/pattern-main-desktop.svg')",
-        'patternIntroLeftDesktop': "url('../images/pattern-intro-left-desktop.svg')",
-        'patternIntroRightDesktop': "url('../images/pattern-intro-right-desktop.svg')"
       },
       fontFamily: {
         karla: ['karla, sans serif'],

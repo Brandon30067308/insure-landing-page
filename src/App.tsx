@@ -4,11 +4,11 @@ import Services from "./components/Services/Services";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <div
       className="App w-full font-karla flex flex-col items-center justify-start
-      overflow-x-hidden"
+        overflow-x-hidden"
     >
       <Nav />
       <Hero />
@@ -17,6 +17,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

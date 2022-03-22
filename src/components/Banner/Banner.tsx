@@ -1,9 +1,9 @@
 import { FC } from "react";
-import useWindowDimension from "../../hooks/useWindowDimension";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import breakpoints from "../../breakpoints/breakpoints";
 
 const Banner: FC = () => {
-  const { width } = useWindowDimension();
+  const { width } = useWindowDimensions();
 
   return (
     <div className="Banner w-full min-h-[434px] flex justify-center items-center">
