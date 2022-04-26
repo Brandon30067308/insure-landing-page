@@ -11,7 +11,7 @@ const Nav: FC = () => {
     <MobileNav />
   ) : (
     <nav className="Nav w-full py-4 min-h-[80px] z-20 flex items-center shadow bg-white font-karla">
-      <div className="w-full max-w-6xl xl:max-w-[80vw] mx-auto flex justify-between items-center px-8">
+      <div className="w-full lg:w-[85vw] max-w-[2160px] mx-auto flex justify-between items-center px-8">
         <Logo />
         <div className="flex items-center">
           <a
