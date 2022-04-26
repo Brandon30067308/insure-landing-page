@@ -30,9 +30,9 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Snappy Process
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
                 Our application process can be completed in minutes not hours.
                 Don’t get stuck filling in tedious forms.
@@ -53,9 +53,9 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Affordable Prices
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
                 We don’t want you worrying about high monthly costs. Our prices
                 may be low, but we still offer the best coverage possible.
@@ -76,9 +76,9 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h4 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 People First
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
                 Our plans aren’t full of conditions and clauses to prevent
                 payouts. We make sure you’re covered when you need it.

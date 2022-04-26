@@ -11,10 +11,12 @@ const App = () => {
         overflow-x-hidden"
     >
       <Nav />
-      <Hero />
-      <Services />
-      <Banner />
-      <Footer />
+      <main className="w-full">
+        <Hero />
+        <Services />
+        <Banner />
+        <Footer />
+      </main>
     </div>
   );
 };
