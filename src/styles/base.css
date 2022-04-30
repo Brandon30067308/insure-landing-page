@@ -717,6 +717,26 @@ Ensure the default browser behavior of the `hidden` attribute.
        column-gap: 3rem;
 }
 
+.gap-x-14{
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
+}
+
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+
+.gap-x-6{
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-x-16{
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1025,6 +1045,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 480px){
   .sm\:mb-5{
     margin-bottom: 1.25rem;
+  }
+
+  .sm\:mb-4{
+    margin-bottom: 1rem;
   }
 
   .sm\:mb-\[72px\]{

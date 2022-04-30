@@ -15,13 +15,13 @@ const Hero: FC = () => {
       <div className="w-full relative bg-primary flex justify-center items-start overflow-y-visible">
         <div
           className="w-full h-fit md:h-[537px] max-w-6xl xl:max-w-[80vw] px-0 md:px-4 pt-0 md:pt-20 pb-16
-        flex justify-center gap-x-12 items-center md:items-start flex-col-reverse md:flex-row text-center
+        flex justify-center gap-x-16 items-center md:items-start flex-col-reverse md:flex-row text-center
         md:text-left"
         >
           <div className="relative md:w-[40%] text-white max-w-xl px-3 sm:px-8 md:px-0 z-10">
             <h1
               className="font-dmSerif max-w-xl text-[3rem] leading-none sm:text-6xl md:mt-0 mt-5
-            mb-2.5"
+            mb-2.5 sm:mb-4"
             >
               Humanizing your instance.
             </h1>
