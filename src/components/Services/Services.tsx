@@ -9,7 +9,7 @@ const Services: FC = () => {
       >
         <div className="mb-14 sm:mb-[72px] w-fit">
           <h2
-            className="md:text-left text-center font-dmSans text-[3rem] sm:text-6xl text-primaryDark
+            className="md:text-left text-center font-dmSerif text-[3rem] sm:text-6xl text-primaryDark
             leading-none"
           >
             We’re different
@@ -30,7 +30,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSerif text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Snappy Process
               </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
@@ -53,7 +53,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSerif text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 Affordable Prices
               </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">
@@ -76,7 +76,7 @@ const Services: FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="font-dmSans text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
+              <h3 className="font-dmSerif text-2xl sm:text-3xl mb-1 sm:mb-2 text-primaryDark">
                 People First
               </h3>
               <p className="text-[15px] sm:text-base text-grayishViolet font-karla">

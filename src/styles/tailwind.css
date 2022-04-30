@@ -3,14 +3,8 @@
 @tailwind utilities;
 @tailwind components;
 
-/* Hero */
-.Hero h3::before {
-  content: "";
-  @apply w-1/3 h-[1px] bg-white mb-7 sm:mb-10 block md:visible invisible md:mx-0 mx-auto;
-}
-
 /* Services */
-.Services h3::before {
+.Services h2::before {
   content: "";
-  @apply block w-1/3 h-[1px] bg-grayishViolet mb-10 md:mx-0 mx-auto;
+  @apply block w-1/3 h-[1px] bg-primaryAlt mb-10 md:mx-0 mx-auto;
 }

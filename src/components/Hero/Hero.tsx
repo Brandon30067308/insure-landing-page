@@ -20,7 +20,7 @@ const Hero: FC = () => {
         >
           <div className="relative md:w-[40%] text-white max-w-xl px-3 sm:px-8 md:px-0 z-10">
             <h1
-              className="font-dmSans max-w-xl text-[3rem] leading-none sm:text-6xl md:mt-0 mt-5
+              className="font-dmSerif max-w-xl text-[3rem] leading-none sm:text-6xl md:mt-0 mt-5
             mb-2.5"
             >
               Humanizing your instance.

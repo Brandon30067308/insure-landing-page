@@ -13,7 +13,7 @@ const Banner: FC = () => {
         px-4 flex-col md:flex-row"
       >
         <h2
-          className="md:flex-[.5] font-dmSans leading-none text-[2.4rem] sm:text-5xl text-center z-10
+          className="md:flex-[.5] font-dmSerif leading-none text-[2.4rem] sm:text-5xl text-center z-10
           md:text-left mb-4 md:mb-0"
         >
           Find out more about how we work.

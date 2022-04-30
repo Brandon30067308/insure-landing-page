@@ -643,16 +643,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-width: 245px;
 }
 
+.max-w-\[2160px\]{
+  max-width: 2160px;
+}
+
 .max-w-6xl{
   max-width: 72rem;
 }
 
 .max-w-xl{
   max-width: 36rem;
-}
-
-.max-w-\[2160px\]{
-  max-width: 2160px;
 }
 
 .-rotate-\[30deg\]{
@@ -868,7 +868,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: karla, sans serif;
 }
 
-.font-dmSans{
+.font-dmSerif{
   font-family: dm serif display, serif;
 }
 
@@ -972,41 +972,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: linear;
 }
 
-/* Hero */
-
-.Hero h3::before {
-  content: "";
-  visibility: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.75rem;
-  display: block;
-  height: 1px;
-  width: 33.333333%;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-@media (min-width: 480px){
-  .Hero h3::before{
-    margin-bottom: 2.5rem;
-  }
-}
-
-@media (min-width: 768px){
-  .Hero h3::before{
-    visibility: visible;
-  }
-
-  .Hero h3::before{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
 /* Services */
 
-.Services h3::before {
+.Services h2::before {
   content: "";
   margin-left: auto;
   margin-right: auto;
@@ -1015,11 +983,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1px;
   width: 33.333333%;
   --tw-bg-opacity: 1;
-  background-color: hsl(273 4% 51% / var(--tw-bg-opacity));
+  background-color: hsl(216 30% 68% / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px){
-  .Services h3::before{
+  .Services h2::before{
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1069,10 +1037,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:\!min-h-\[1315px\]{
     min-height: 1315px !important;
-  }
-
-  .sm\:w-\[460px\]{
-    width: 460px;
   }
 
   .sm\:rotate-0{
@@ -1199,24 +1163,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px){
-  .lg\:w-\[80vw\]{
-    width: 80vw;
-  }
-
   .lg\:w-\[85vw\]{
     width: 85vw;
-  }
-
-  .lg\:pt-20{
-    padding-top: 5rem;
   }
 }
 
 @media (min-width: 1440px){
-  .xl\:max-w-\[2160px\]{
-    max-width: 2160px;
-  }
-
   .xl\:max-w-\[80vw\]{
     max-width: 80vw;
   }
